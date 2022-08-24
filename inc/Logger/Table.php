@@ -19,7 +19,7 @@ class Table {
 		$sql = "CREATE TABLE IF NOT EXISTS `" . self::$name . "` (
 				`mail_id` INT NOT NULL AUTO_INCREMENT,
 				`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-				`to` VARCHAR(200) NOT NULL DEFAULT '0',
+				`to` TEXT NOT NULL DEFAULT '0',
 				`subject` VARCHAR(200) NOT NULL DEFAULT '0',
 				`message` TEXT NULL,
 				`headers` TEXT NULL,
