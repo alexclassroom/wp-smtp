@@ -4,15 +4,16 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /**
  * Plugin Name: WP SMTP
  * Description: WP SMTP can help us to send emails via SMTP instead of the PHP mail() function and email logger built-in.
- * Version: 1.2.5
- * Author: WPChill
- * Author URI: https://www.wpchill.com/
+ * Version: 1.2.6
+ * Author: WPOmnia
+ * Author URI: https://www.wpomnia.com/
  * Text Domain: wp-smtp
  * Domain Path: /lang
  * License: GPLv3 or Later
  *
  * Copyright 2012-2022 Yehuda Hassine yehudahas@gmail.com
  * Copyright 2022-2022 WPChill heyyy@wpchill.com
+ * Copyright 2023 WPOmnia contact@wpomnia.com
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 3, as
@@ -38,7 +39,7 @@ define( 'WPSMTP_PATH', plugin_dir_path( WPSMTP__FILE__ ) );
 define( 'WPSMTP_URL', plugins_url( '/', WPSMTP__FILE__ ) );
 define( 'WPSMTP_ASSETS_PATH', WPSMTP_PATH . 'assets/' );
 define( 'WPSMTP_ASSETS_URL', WPSMTP_URL . 'assets/' );
-define( 'WPSMTP_VERSION', '1.2.5' );
+define( 'WPSMTP_VERSION', '1.2.6' );
 
 require_once __DIR__ . '/vendor/autoload.php';
 

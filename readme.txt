@@ -1,10 +1,10 @@
 === WP SMTP ===
 Tags: wp smtp,smtp,mail,email,logs,mailer,wp mail,gmail,yahoo,mail smtp,ssl,tls
-Contributors: wpchill,silkalns,raldea89,giucu91,andylukak
+Contributors: jack-kitterhing
 License: GPLv3 or later
 Requires at least: 2.7
-Tested up to: 6.0
-Stable tag: 1.2.5
+Tested up to: 6.3
+Stable tag: 1.2.6
 
 WP SMTP can help us to send emails via SMTP instead of the PHP mail() function.
 
@@ -17,23 +17,24 @@ If the field "From" was not a valid email address, or the field "SMTP Host" was 
 
 = CREDITS =
 
-WP SMTP plugin was originally created by BoLiQuan. It is now owned and maintained by WPChill.
+WP SMTP plugin was originally created by BoLiQuan. It is now owned and maintained by WPOmnia.
 
 = Usage =
 
 1. Download and extract `wp-smtp.zip` to `wp-content/plugins/`
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. "Dashboard"->"Settings"->"WP SMTP"
-4. For more information of this plugin, please visit: [Plugin Homepage](https://wpsmtpmail.com/ "WP SMTP").
 
 == Installation ==
 
 1. Download and extract `wp-smtp.zip` to `wp-content/plugins/`
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. "Dashboard"->"Settings"->"WP SMTP"
-4. For more information of this plugin, please visit: [Plugin Homepage](https://wpsmtpmail.com/ "WP SMTP").
 
 == Changelog ==
+
+= 1.2.6 =
+Updated: Plugin author to reflect ownership changes.
 
 = 1.2.5 =
 Fixed: base64_encoding problem for passwords and users that may appear that they are already in base64_encoding but in reality they are not ( https://github.com/WPChill/wp-smtp/issues/7 )
@@ -108,6 +109,6 @@ https://wpsmtpmail.com/v1-1-10-wp-smtp-is-back/
 
 == Frequently Asked Questions ==
 
-You can submit it in https://wordpress.org/support/plugin/wp-smtp, if It's urgent like a bug submit it here: https://wpsmtpmail.com/contact/
+You can submit it in https://wordpress.org/support/plugin/wp-smtp.
 
 
